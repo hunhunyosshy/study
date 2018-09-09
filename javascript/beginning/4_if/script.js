@@ -1,7 +1,7 @@
-var message = "";
+var resultMessage = "";
 if (window.confirm('準備はOKですか？')) {
-    message = "それでは開始します";
+    resultMessage = "それでは開始します";
 } else {
-    message = "キャンセルします";
+    resultMessage = "キャンセルします";
 }
-document.getElementById("confirm").textContent = message;
+document.getElementById("confirm").textContent = resultMessage;
