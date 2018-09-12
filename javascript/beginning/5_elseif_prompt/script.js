@@ -7,7 +7,7 @@ var makeOutputMessage = function(promptMessage) {
     } else if (promptMessage === "吉川") {
         return "おお、いい人そうな響きですね。" + defaultMessage;
     } else if (!promptMessage) {
-        return "名前を教えていただけないと、あなたのことを何て呼べばいいか分かりません。";
+        return "名前を教えていただけないと、あなたのことを何と呼べばいいか分かりません。";
     }
     return defaultMessage;
 }
