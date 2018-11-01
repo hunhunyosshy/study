@@ -8,8 +8,4 @@ console.log(bool);
 var str2 = "moji";
 str2 = "aaa";
 console.log(str2);
-// let func = () => { };
-// console.log(func());
-// let obj = {};
-// console.log(obj);
 // console.log(str, num, bool, func(), obj);
