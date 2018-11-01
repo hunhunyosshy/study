@@ -1,0 +1,15 @@
+"use strict";
+var str = "文字列";
+console.log(str);
+var num = 1;
+console.log(num);
+var bool = true;
+console.log(bool);
+var str2 = "moji";
+str2 = "aaa";
+console.log(str2);
+// let func = () => { };
+// console.log(func());
+// let obj = {};
+// console.log(obj);
+// console.log(str, num, bool, func(), obj);
