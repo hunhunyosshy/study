@@ -1,15 +1,14 @@
 "use strict";
-var Hello = /** @class */ (function () {
-    function Hello() {
+class Hello {
+    constructor() {
         this.count = 0;
         console.log('Hello World');
     }
-    Hello.prototype.tick = function () {
+    tick() {
         ++this.count;
         console.log('count', this.count);
-    };
-    return Hello;
-}());
+    }
+}
 var hello = new Hello();
 function main() {
     hello.tick();

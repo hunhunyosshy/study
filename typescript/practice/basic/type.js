@@ -1,11 +1,11 @@
 "use strict";
-var str = "文字列";
+let str = "文字列";
 console.log(str);
-var num = 1;
+let num = 1;
 console.log(num);
-var bool = true;
+let bool = true;
 console.log(bool);
-var str2 = "moji";
+let str2 = "moji";
 str2 = "aaa";
 console.log(str2);
 // console.log(str, num, bool, func(), obj);
