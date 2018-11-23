@@ -1,5 +1,5 @@
 var canDivide = function(devidedNumber, devidingNumber) {
-    return (devidedNumber % devidingNumber) === 0; 
+    return (devidedNumber % devidingNumber) === 0;
 }
 
 var outputFizzBuzz = function(number) {
