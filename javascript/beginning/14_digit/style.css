@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+p {
+  color: #0000ff;
+  font-size: 22px;
+}
+.song-list {
+  background-color: azure;
+  border: 1px solid #808080;
+  padding-left: 10px;
+  margin: 10px;
+}
