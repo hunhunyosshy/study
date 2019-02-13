@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.countdown,span {
+  color: crimson;
+  font-size: 30px;
+}
+.countdown,p {
+  color: black;
+  font-size: 15px;
+}
