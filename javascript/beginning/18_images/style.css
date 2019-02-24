@@ -1,0 +1,19 @@
+@charset "UTF-8";
+section img {
+  max-width: 100%;
+}
+.center {
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-right: 1%;
+  width: 24%;
+}
