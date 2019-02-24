@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>アンケート</title>
+    <link href="../999_common/css/style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="header-contents">
+        <h1>JavaScriptの練習</h1>
+        <h2>その17: アンケート</h2>
+      </div>
+    </header>
+    <div class="main">
+      <section>
+        <p>映画館に行きますか？</p>
+        <form id="form" action="thankyou.html">
+          <input type="radio" name="frequency" value=1>週に1回くらい<br>
+          <input type="radio" name="frequency" value=2>月に1回くらい<br>
+          <input type="radio" name="frequency" value=3>年に数回くらい<br>
+          <input type="radio" name="frequency" value=4>ほぼ観ない<br>
+          <input type="submit" name="送信する" id="submit"><br>
+        </form>
+        <button id="remove">cookieを削除する</button>
+      </section>
+    </div>
+    <script src="../999_common/js-cookie/src/js.cookie.js"></script>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+
+  </footer>
+</html>
