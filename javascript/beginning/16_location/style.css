@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/** https://copypet.jp/797/ */
+.langselect {
+	overflow: hidden;
+  width: 150px;
+  height: 40px;
+  margin: 2em auto;
+  font-size: 20px;
+	text-align: center;
+}
+.langselect select {
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
