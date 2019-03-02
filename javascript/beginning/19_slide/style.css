@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.slide {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 600px;
+  background-color: black;
+}
+img {
+  max-width: 100%;
+}
+.toolbar {
+  overflow: hidden;
+  text-align: center;
+}
+.nav {
+  display: inline-block;
+}
+#prev {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(images/prev.png) no-repeat;
+}
+#page {
+  display: inline-block;
+  float: none;
+  margin-top: 8px;
+  height: 32px;
+  color: white;
+}
+#next {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(images/next.png) no-repeat;
+}
